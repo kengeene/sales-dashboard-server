@@ -1,0 +1,194 @@
+{
+  "dashboard": {
+    "collections": 0,
+    "signUps": {
+      "total": 45,
+      "breakdown": {
+        "analytics": 15,
+        "finance": 20,
+        "timetable": 10
+      },
+      "numberPerSchoolType": {
+        "primary": {
+          "name": "Primary",
+          "value": 12
+        },
+        "secondary": {
+          "name": "Secondary",
+          "value": 43
+        },
+        "igcse": {
+          "name": "IGCSE",
+          "value": 89
+        }
+      }
+    },
+    "totalRevenue": {
+      "amount": 120000,
+      "breakdown": {
+        "analytics": 40000,
+        "finance": 50000,
+        "timetable": 30000
+      }
+    },
+    "bouncedCheques": 5,
+    "signupTargets": {
+      "analytics": {
+        "target": 20,
+        "achieved": 15
+      },
+      "finance": {
+        "target": 25,
+        "achieved": 20
+      },
+      "timetable": {
+        "target": 15,
+        "achieved": 10
+      }
+    },
+    "signupOverview": {
+      "primary": {
+        "analytics": 5,
+        "finance": 10,
+        "timetable": 2
+      },
+      "secondary": {
+        "analytics": 7,
+        "finance": 7,
+        "timetable": 5
+      },
+      "igcse": {
+        "analytics": 3,
+        "finance": 3,
+        "timetable": 3
+      }
+    },
+    "upcomingInvoices": [
+      {
+        "id": 1,
+        "schoolName": "ABC Primary",
+        "amountDue": 5000,
+        "dueDate": "2024-06-15"
+      },
+      {
+        "id": 2,
+        "schoolName": "XYZ Secondary",
+        "amountDue": 10000,
+        "dueDate": "2024-06-20"
+      }
+    ]
+  },
+  "schools": [
+    {
+      "id": "1",
+      "name": "ABC Primary",
+      "type": "Primary",
+      "products": ["Zeraki Finance", "Zeraki Anayltics"],
+      "county": "Eldoret",
+      "registrationDate": "2021-01-15",
+      "contactInfo": {
+        "phone": "123-456-7890",
+        "email": "abc@primary.com"
+      },
+      "balance": 2000,
+      "invoices": [
+        {
+          "invoiceNumber": "INV-001",
+          "items": ["Zeraki Analytics"],
+          "creationDate": "2024-05-01",
+          "dueDate": "2024-06-01",
+          "amount": 5000,
+          "paidAmount": 3000,
+          "balance": 2000,
+          "status": "Pending"
+        }
+      ],
+      "collections": [
+        {
+          "collectionNumber": "COL-001",
+          "invoiceNumber": "INV-001",
+          "date": "2024-05-15",
+          "status": "Valid",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "id": "1a8e",
+      "name": "XYZ Secondary",
+      "type": "Secondary",
+      "products": ["Zeraki Finance", "Zeraki Anayltics"],
+      "county": "Mombasa",
+      "balance": "12000",
+      "invoices": [],
+      "collections": [],
+      "dateCreated": "2024-06-03T19:43:29.106Z"
+    },
+    {
+      "id": "1c95",
+      "name": "School Test",
+      "type": "Primary",
+      "products": ["Zeraki Finance", "Zeraki Anayltics"],
+      "county": "Mombasa",
+      "balance": "20000",
+      "invoices": [],
+      "collections": [],
+      "dateCreated": "2024-06-04T08:56:17.436Z"
+    },
+    {
+      "id": "3a3f",
+      "name": "Nairobi School",
+      "type": "Primary",
+      "products": ["Zeraki Finance", "Zeraki Anayltics"],
+      "county": "Eldoret",
+      "balance": "1000",
+      "invoices": [],
+      "collections": [],
+      "dateCreated": "2024-06-04T08:58:36.900Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "schoolName": "ABC Primary",
+      "amountDue": 5000,
+      "dueDate": "2024-06-04T11:48",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "schoolName": "XYZ Secondary",
+      "amountDue": 10000,
+      "dueDate": "2024-06-04T11:48",
+      "status": "Pending"
+    },
+    {
+      "id": "3c1d",
+      "schoolName": "Test1",
+      "amountDue": "4000",
+      "dueDate": "2024-06-04T11:48",
+      "status": "Pending"
+    },
+    {
+      "id": "ccb6",
+      "schoolName": "ABC Primaryx",
+      "amountDue": "10",
+      "dueDate": "2024-07-02T11:55",
+      "status": "Paid"
+    },
+    {
+      "id": "61d6",
+      "schoolName": "Nairobi School",
+      "amountDue": "6000",
+      "dueDate": "2024-06-04T11:59",
+      "status": "Pending"
+    }
+  ],
+  "collections": [
+    {
+      "id": "6f30",
+      "invoiceId": "ccb6",
+      "status": "Paid"
+    }
+  ]
+}
